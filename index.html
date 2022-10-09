@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Huafeng Yu">
+    <meta name="'author-contact" content="yuhuafeng@gmail.com">
+    <meta name="version" content="v1.2">
+    <meta name="release-date" content="2022/10/09">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ip-v4-calc.css">
+    
+    
+    <script type="text/javascript" src="scripts/ip-v4-calc.js"></script>
+</head>
+<body onload="convertIpV4Html()">
+    <!-- <center> -->
+    <div>
+        <img width="25%" src="imgs/ip-v4-addressformat.png" alt="Icon">
+        <!-- <img src="http://www.lbpce.ca/Portals/0/lbpsb_logo_.png?ver=2016-04-06-090140-043" alt="Lester B. Pearson Continuing Education"> -->
+    </div>
+    <div>
+        <h1>Don't worry about the IP calculation</h1>
+        <p>By <span id="author">Huafneg Yu</span>  <br><br> Any suggestion? <a href="mailto:yuhuafeng@gmail.com" id="mailto">mailto:yuhuafeng@gmail.com</a></p>
+    </div>
+    
+    <div>
+        <table class="table-no-border">
+            <td class="td-no-border">
+                <label for="input-ip">IPv4 Address</label>
+                
+            </td>
+            <td class="td-no-border">
+                <input type="text" name="input-ip" value="192.168.23.137/24" id="ipAddr" autofocus>
+            </td>
+        </table>
+       
+        
+        <br>
+        <div>
+            <button  class="button-24" role="button" onclick="convertIpV4Html()">Do the math</button>
+        </div>
+        
+        <br>
+        <br>
+        <table id="tableOutput" style="width: 50%">
+            <tr>
+                <th>Item</th>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>ip address</td>
+                <td id="ipAddrDec"></td>
+                <td id="ipAddrBin"></td>
+            </tr>
+            <tr>
+                <td>subnet mask</td>
+                <td id="subnetMaskDec"></td>
+                <td id="subnetMaskBin"></td>
+            </tr>
+            <tr>
+                <td>network id</td>
+                <td id="networkIdDec"></td>
+                <td id="networkIdBin"></td>
+            </tr>
+            <tr>
+                <td>first assignable ip</td>
+                <td id="firstIpDec"></td>
+                <td id="firstIpBin"></td>
+            </tr>
+            <tr>
+                <td>last assignable ip</td>
+                <td id="lastIpDec"></td>
+                <td id="lastIpBin"></td>
+            </tr>
+            <tr>
+                <td>broadcast ip</td>
+                <td id="broadcastIpDec"></td>
+                <td id="broadcastIpBin"></td>
+            </tr>
+            <tr>
+                <td>assignable ip count</td>
+                <td id="hostCount"></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <h3 id="result"></h3>
+    </div>
+    <!-- </center> -->
+</body>
+</html>

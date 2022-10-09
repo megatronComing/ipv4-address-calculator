@@ -1,0 +1,192 @@
+/*
+version: 1.2
+author: Huafeng Yu
+contact: yuhuafeng@gmailcom
+release date: 2022/10/09
+*/
+div.wrapper {
+    width: 500px;
+    height: 1px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+input[type=text] {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: helvetica;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    border: 1px solid;
+    padding: 10px;
+    min-width: 200px;
+    background: rgb(161, 159, 159);
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+td {
+    border: 1px solid;
+    padding: 10px;
+    min-width: 200px;
+    background: rgb(197, 238, 204);
+    box-sizing: border-box;
+    text-align: left;
+
+
+}
+
+h1 {
+    color: rgb(64, 64, 66);
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+    font-family: verdana;
+}
+
+label {
+    margin-left: auto;
+    margin-right: auto
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+/* button {
+            margin: 0 auto;
+        } */
+
+/* <button class="button-5" role="button">Button 5</button> */
+
+/* CSS */
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.table-no-border {
+    border: 0px;
+    background-color: white;
+}
+
+.td-no-border {
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* <button class="button-24" role="button">Button 24</button> */
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+input[type="text"] {
+    height: 20px;
+    padding: 5px;
+
+}
+
+#author {
+    font-style: italic;
+}
+
+p a {
+    color: #ff5d00;
+}
+
+#mailto {
+    text-decoration: none;
+    font-style: italic;
+}
