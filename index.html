@@ -26,7 +26,7 @@
     </div>
     
     <div>
-        <table class="table-no-border">
+        <!-- <table class="table-no-border">
             <td class="td-no-border">
                 <label for="input-ip">IPv4 Address</label>
                 
@@ -34,8 +34,9 @@
             <td class="td-no-border">
                 <input type="text" name="input-ip" value="192.168.23.137/24" id="ipAddr" autofocus>
             </td>
-        </table>
-       
+        </table> -->
+        <label for="input-ip">IPv4 Address</label>
+        <input type="text" name="input-ip" value="192.168.23.137/24" id="ipAddr" autofocus>
         
         <br>
         <div>
@@ -44,11 +45,11 @@
         
         <br>
         <br>
-        <table id="tableOutput" style="width: 50%">
+        <table id="tableOutput" style="width: 60%">
             <tr>
-                <th>Item</th>
-                <th>Decimal</th>
-                <th>Binary</th>
+                <th class="col-item">Item</th>
+                <th class="col-decimal">Decimal</th>
+                <th class="col-binary">Binary</th>
             </tr>
             <tr>
                 <td>ip address</td>
